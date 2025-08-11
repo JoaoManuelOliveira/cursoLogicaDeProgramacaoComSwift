@@ -12,7 +12,8 @@ print(media)
 let distancia = Int(readLine()!)!
 let combustivel = Double(readLine()!)!
 let total = Double(distancia) / combustivel
-print("Consumo Médio = \(total) km/l")
+print(String(format: "Consumo Médio = %.3f km/l", total))
+
 
 
 
